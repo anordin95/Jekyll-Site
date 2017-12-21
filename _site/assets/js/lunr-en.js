@@ -10,6 +10,33 @@ var idx = lunr(function () {
 
   
   
+    idx.add({
+      title: "Using Sentiment to predict the Market",
+      excerpt: "A friend of mine, Dillon Dumesnil and I worked on a project to predict the direction of the S&amp;P500’s price...",
+      categories: ["Edge Case"],
+      tags: ["content","css","edge case","lists","markup"],
+      id: 0
+    });
+    
+  
+    idx.add({
+      title: "Neuroscience Research: Queensland Brain Institute",
+      excerpt: "I spent 7 weeks performing neuroscience research with Geoffrey Goodhill and his team at the Queensland Brain Institute. The team...",
+      categories: ["Post Formats"],
+      tags: ["Post Formats","readability","standard"],
+      id: 1
+    });
+    
+  
+    idx.add({
+      title: "Automating Prediction Problem Generation",
+      excerpt: "I’ll be spending the next year working under Kalyan Veeramachaneni at the Data to AI Lab at MIT. Two years...",
+      categories: ["Edge Case"],
+      tags: ["content","css","edge case","lists","markup"],
+      id: 2
+    });
+    
+  
 
 
 console.log( jQuery.type(idx) );
@@ -18,6 +45,39 @@ var store = [
   
     
     
+    
+      
+      {
+        "title": "Using Sentiment to predict the Market",
+        "url": "http://localhost:4000/edge%20case/Market-Sentiment/",
+        "excerpt": "A friend of mine, Dillon Dumesnil and I worked on a project to predict the direction of the S&amp;P500’s price...",
+        "teaser":
+          
+            null
+          
+      },
+    
+      
+      {
+        "title": "Neuroscience Research: Queensland Brain Institute",
+        "url": "http://localhost:4000/post%20formats/Neuroscience-Research/",
+        "excerpt": "I spent 7 weeks performing neuroscience research with Geoffrey Goodhill and his team at the Queensland Brain Institute. The team...",
+        "teaser":
+          
+            null
+          
+      },
+    
+      
+      {
+        "title": "Automating Prediction Problem Generation",
+        "url": "http://localhost:4000/edge%20case/MEng-Thesis-Work/",
+        "excerpt": "I’ll be spending the next year working under Kalyan Veeramachaneni at the Data to AI Lab at MIT. Two years...",
+        "teaser":
+          
+            null
+          
+      }
     
   ]
 
