@@ -16,5 +16,7 @@ Abstract:
 
 Machine learning has seen a swell of activity in recent years. Many applications of machine learning involve industry-specific tasks where acquired data is leveraged to build classifiers that can better predict events. Today we have an abundance of data and a need for more machine learning experts to perform analysis and derive insights. We’ll call data analysis the process of a machine learning expert analyzing data. One major impediment to the data analysis process is coming up with relevant prediction problems that can be answered with the data. We propose a system that can automatically generate prediction problems. Incorporating our technology into the data analysis process will greatly reduce the barrier to entry for understanding and advantageously using machine learning for data scientists and laymen.
 
-Here's the full thesis proposal:
+Here's the full [thesis proposal]({{ "/assets/thesis_proposal.pdf"| absolute_url }})
+
+... you can [get the PDF]({{ "/assets/mydoc.pdf" | absolute_url }}) directly.
 
